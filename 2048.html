@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title></title>
+    <link href="2048.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src ="2048.js" charset="utf-8"> </script>
+</head>
+<body onkeydown="keyHandler(event);">
+      <canvas id = "mainRegion" height="800" width="800"></canvas>
+      <script>
+          var main = initialize();
+          drawGrid(main);
+      </script>
+</body>
+</html>
